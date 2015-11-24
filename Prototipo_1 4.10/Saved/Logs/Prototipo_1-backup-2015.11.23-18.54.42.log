@@ -1,0 +1,566 @@
+﻿[2015.11.23-23.36.57:345][  0]Log file open, 11/23/15 18:36:57
+[2015.11.23-23.36.57:345][  0]LogInit:Display: Running engine for game: Prototipo_1
+[2015.11.23-23.36.57:345][  0]LogPlatformFile: Not using cached read wrapper
+[2015.11.23-23.36.57:345][  0]LogInit:Display: RandInit(1074434463) SRandInit(1074434464).
+[2015.11.23-23.36.57:345][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.23-23.36.57:345][  0]LogStats: Stats thread started at 0.063792
+[2015.11.23-23.36.57:345][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.23-23.36.57:345][  0]LogInit: API Version: 2758231
+[2015.11.23-23.36.57:345][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.11.23-23.36.57:345][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.11.23-23.36.57:345][  0]LogInit: Build Configuration: Development
+[2015.11.23-23.36.57:345][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.11.23-23.36.57:345][  0]LogInit: Command line:  
+[2015.11.23-23.36.57:345][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.11.23-23.36.57:345][  0]LogInit: Rocket: 1
+[2015.11.23-23.36.57:357][  0]LogInit: Using libcurl 7.41.0
+[2015.11.23-23.36.57:357][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.23-23.36.57:357][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.23-23.36.57:357][  0]LogInit:  - other features:
+[2015.11.23-23.36.57:357][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.23-23.36.57:357][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.23-23.36.57:357][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.23-23.36.57:357][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.23-23.36.57:357][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.23-23.36.57:357][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.23-23.36.57:357][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.23-23.36.57:357][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.23-23.36.57:357][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.23-23.36.57:357][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.23-23.36.57:366][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.23-23.36.57:374][  0]LogInit: Object subsystem initialized
+[2015.11.23-23.36.57:376][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.23-23.36.57:376][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.23-23.36.57:392][  0]LogInit: Computer: JORGE
+[2015.11.23-23.36.57:392][  0]LogInit: User: Jorge
+[2015.11.23-23.36.57:392][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.23-23.36.57:392][  0]LogInit: High frequency timer resolution =2.533200 MHz
+[2015.11.23-23.36.57:392][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.11.23-23.36.57:392][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.23-23.36.57:392][  0]LogMemory: Process Physical Memory: 56.03 MB used, 56.03 MB peak
+[2015.11.23-23.36.57:392][  0]LogMemory: Process Virtual Memory: 57.52 MB used, 57.52 MB peak
+[2015.11.23-23.36.57:392][  0]LogMemory: Physical Memory: 2689.34 MB used, 12208.14 MB total
+[2015.11.23-23.36.57:392][  0]LogMemory: Virtual Memory: 378.52 MB used, 134217728.00 MB total
+[2015.11.23-23.36.57:873][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.11.23-23.36.57:873][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6104MB of shared system memory, 1 output[s]
+[2015.11.23-23.36.58:831][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R7 M260 (Feature Level 11_0)
+[2015.11.23-23.36.58:831][  0]LogD3D11RHI: Adapter has 2035MB of dedicated video memory, 0MB of dedicated system memory, and 6104MB of shared system memory, 0 output[s]
+[2015.11.23-23.36.58:837][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.23-23.36.58:837][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6104MB of shared system memory, 0 output[s]
+[2015.11.23-23.36.58:837][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.23-23.36.58:849][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.23-23.36.58:849][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.23-23.36.58:864][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.23-23.36.58:872][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Intermediate/Shaders/WorkingDirectory/8604/).
+[2015.11.23-23.36.58:872][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daniel/AppData/Local/Temp/UnrealShaderWorkingDir/B489C6E8429C0EE32D7E53AC0CC01AA4/'.
+[2015.11.23-23.36.58:872][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.23-23.36.59:954][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.23-23.36.59:960][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.23-23.36.59:966][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.23-23.36.59:971][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.23-23.36.59:976][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.23-23.36.59:981][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.23-23.36.59:985][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.23-23.36.59:989][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.23-23.36.59:992][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.23-23.36.59:996][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.23-23.37.00:002][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.23-23.37.00:010][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.11.23-23.37.00:010][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.23-23.37.00:011][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.23-23.37.00:031][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.23-23.37.00:035][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.23-23.37.00:038][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.23-23.37.00:042][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.23-23.37.00:043][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.23-23.37.00:142][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.23-23.37.00:191][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.23-23.37.00:191][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Daniel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.11.23-23.37.00:192][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.23-23.37.00:192][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.23-23.37.00:192][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.23-23.37.00:192][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.23-23.37.00:248][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.23-23.37.00:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daniel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.23-23.37.00:501][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.23-23.37.00:504][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.23-23.37.00:627][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.23-23.37.00:627][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.23-23.37.00:903][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.23-23.37.02:922][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.23-23.37.03:072][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.11.23-23.37.03:314][  0]SourceControl: Info Source control is disabled
+[2015.11.23-23.37.03:361][  0]SourceControl: Info Source control is disabled
+[2015.11.23-23.37.03:380][  0]SourceControl: Info Source control is disabled
+[2015.11.23-23.37.03:394][  0]SourceControl: Info Source control is disabled
+[2015.11.23-23.37.03:703][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.11.23-23.37.03:703][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.11.23-23.37.03:764][  0]LogEngine: Initializing Engine...
+[2015.11.23-23.37.03:768][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.23-23.37.03:768][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.23-23.37.03:905][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.23-23.37.03:954][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.23-23.37.04:137][  0]LogInit: FAudioDevice initialized.
+[2015.11.23-23.37.04:157][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.23-23.37.04:161][  0]LogInit: Texture streaming: Enabled
+[2015.11.23-23.37.04:168][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.23-23.37.04:168][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.23-23.37.04:168][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 02a92638413d6e9abea5c7aca5f6540a|3349b03e2e674c09ae8b169d1df5bddf|a6273b8f-85b9-4f16-b013-14ad0d925f1f
+[2015.11.23-23.37.04:169][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.23-23.37.04:181][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.23-23.37.04:207][  0]LogInit: Transaction tracking system initialized
+[2015.11.23-23.37.04:264][  0]BlueprintLog: New page: Editor Load
+[2015.11.23-23.37.04:379][  0]LocalizationService: Info Localization service is disabled
+[2015.11.23-23.37.04:640][  0]LogConsoleResponse:Display: 
+[2015.11.23-23.37.04:793][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.23-23.37.04:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/' took 0.02s
+[2015.11.23-23.37.04:894][  0]SourceControl: Info Source control is disabled
+[2015.11.23-23.37.04:896][  0]LightingResults: New page: Lighting Build
+[2015.11.23-23.37.04:899][  0]MapCheck: New page: Map Check
+[2015.11.23-23.37.04:899][  0]LightingResults: New page: Lighting Build
+[2015.11.23-23.37.04:923][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A4F0C2AAC0
+[2015.11.23-23.37.04:931][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.04:934][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.04:936][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.04:937][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.04:939][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.04:940][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.04:941][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.04:943][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.37.05:101][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:101][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Carro/carro.uasset.
+[2015.11.23-23.37.05:101][  0]LoadErrors:Error: Error /Game/Carro/carro : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:105][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:105][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Carro/carro.uasset.
+[2015.11.23-23.37.05:105][  0]LoadErrors:Error: Error /Game/Carro/carro : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:106][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:106][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:106][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:107][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:107][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:107][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:107][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:107][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:107][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:114][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:114][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_398
+[2015.11.23-23.37.05:115][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:115][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_398
+[2015.11.23-23.37.05:115][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:115][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:115][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_399
+[2015.11.23-23.37.05:115][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:116][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_399
+[2015.11.23-23.37.05:116][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:116][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:116][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_400
+[2015.11.23-23.37.05:116][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:116][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_400
+[2015.11.23-23.37.05:116][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:117][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:117][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_401
+[2015.11.23-23.37.05:117][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:117][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by K2Node_CallFunctionOnMember_401
+[2015.11.23-23.37.05:117][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:119][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:119][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:119][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:119][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:119][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_12
+[2015.11.23-23.37.05:119][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:119][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_12
+[2015.11.23-23.37.05:119][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:120][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:120][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:120][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:120][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:120][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_13
+[2015.11.23-23.37.05:120][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:120][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_13
+[2015.11.23-23.37.05:120][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:121][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:121][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:121][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:121][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:121][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_14
+[2015.11.23-23.37.05:121][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:121][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_14
+[2015.11.23-23.37.05:121][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:121][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:122][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:122][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:122][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:122][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_11
+[2015.11.23-23.37.05:122][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:122][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_11
+[2015.11.23-23.37.05:122][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:133][  0]LogBlueprint:Warning: [compiler carro] Warning CreatePinForVariable: 'hoverCar4' variable not found. Base class was probably changed.
+[2015.11.23-23.37.05:133][  0]LogBlueprint:Warning: [compiler carro] Warning CreatePinForVariable: 'hoverCar3' variable not found. Base class was probably changed.
+[2015.11.23-23.37.05:133][  0]LogBlueprint:Warning: [compiler carro] Warning CreatePinForVariable: 'hoverCar2' variable not found. Base class was probably changed.
+[2015.11.23-23.37.05:133][  0]LogBlueprint:Warning: [compiler carro] Warning CreatePinForVariable: 'hoverCar1' variable not found. Base class was probably changed.
+[2015.11.23-23.37.05:134][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "init" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:134][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "init" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:134][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "init" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:134][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "init" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:134][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "None" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:134][  0]LogBlueprint:Warning: [compiler carro] Warning Could not find a variable named "hoverCar4" in 'carro_C'.
+Make sure 'carro_C' has been compiled for  Init 
+[2015.11.23-23.37.05:134][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "None" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:135][  0]LogBlueprint:Warning: [compiler carro] Warning Could not find a variable named "hoverCar3" in 'carro_C'.
+Make sure 'carro_C' has been compiled for  Init 
+[2015.11.23-23.37.05:135][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "None" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:135][  0]LogBlueprint:Warning: [compiler carro] Warning Could not find a variable named "hoverCar2" in 'carro_C'.
+Make sure 'carro_C' has been compiled for  Init 
+[2015.11.23-23.37.05:135][  0]LogBlueprint:Error: [compiler carro] Error Could not find a function named "None" in 'carro'.
+Make sure 'carro' has been compiled for  Init 
+[2015.11.23-23.37.05:135][  0]LogBlueprint:Warning: [compiler carro] Warning Could not find a variable named "hoverCar1" in 'carro_C'.
+Make sure 'carro_C' has been compiled for  Init 
+[2015.11.23-23.37.05:140][  0]LogBlueprint:Warning: [compiler carro] Warning [0008.40] Compile of carro failed. 8 Fatal Issue(s) 8 Warning(s) [in 9 ms]
+[2015.11.23-23.37.05:140][  0]LogBlueprint:Warning: [compiler carro] Warning [0008.40] Compile of carro failed. 8 Fatal Issue(s) 9 Warning(s) [in 0 ms]
+[2015.11.23-23.37.05:140][  0]LogBlueprint:Warning: [compiler carro] Warning [0008.40] Compile of carro failed. 8 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:142][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:142][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:142][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:142][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:143][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:143][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:143][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:143][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:143][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:143][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:143][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:144][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:144][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:144][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:144][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:144][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Blueprints/AIS.uasset.
+[2015.11.23-23.37.05:144][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/AIS : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:345][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:345][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.11.23-23.37.05:345][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:364][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:365][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.11.23-23.37.05:365][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.37.05:391][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:391][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:392][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:392][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:392][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:392][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:392][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:392][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:393][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:393][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:393][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:393][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:393][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:393][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:393][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:394][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:394][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:394][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:394][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:394][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:399][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:399][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:399][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:399][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:400][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:400][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:400][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:400][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:400][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:400][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:400][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:401][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:401][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:401][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:401][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:401][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:409][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:409][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:409][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:409][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:410][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:410][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:410][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:410][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:411][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:411][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:411][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:411][  0]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.37.05:411][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:411][  0]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.37.05:411][  0]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_402
+[2015.11.23-23.37.05:852][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.23-23.37.05:865][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.23-23.37.05:866][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.23-23.37.06:035][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 168.831ms to complete.
+[2015.11.23-23.37.06:035][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.142
+[2015.11.23-23.37.06:169][  0]LogCollectionManager: Loaded 0 collections in 0.003721 seconds
+[2015.11.23-23.37.06:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Collections/' took 0.01s
+[2015.11.23-23.37.06:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Developers/Jorge/Collections/' took 0.01s
+[2015.11.23-23.37.06:213][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Collections/' took 0.01s
+[2015.11.23-23.37.06:213][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.23-23.37.06:225][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 1893 classes and 338 folders.
+[2015.11.23-23.37.06:236][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.23-23.37.06:326][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.23-23.37.06:333][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.11.23-23.37.06:366][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.23-23.37.06:370][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.23-23.37.06:393][  0]LogLoad: Full Startup: 9.65 seconds (BP compile: 0.13 seconds)
+[2015.11.23-23.37.06:418][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.23-23.37.06:525][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.11.23-23.37.06:724][  0]LogRenderer: Reallocating scene render targets to support 712x368 (Frame:2).
+[2015.11.23-23.37.07:433][  4]LogAssetRegistry: Asset discovery search completed in 4.3719 seconds
+[2015.11.23-23.37.07:433][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.23-23.37.07:433][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2015.11.23-23.37.23:939][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.37.23:939][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.37.36:591][957]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_carro_C_0' or package '/Engine/Transient'.
+[2015.11.23-23.37.36:591][957]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_carro_C_1' or package '/Engine/Transient'.
+[2015.11.23-23.37.36:591][957]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ObjetivoActual' or package '/Game/ThirdPersonBP/Blueprints/AIS'.
+[2015.11.23-23.37.36:591][957]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_carro_C_27' or package '/Engine/Transient'.
+[2015.11.23-23.37.36:591][957]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_carro_C_26' or package '/Engine/Transient'.
+[2015.11.23-23.38.14:215][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.38.14:215][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.40.29:704][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:707][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:708][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:710][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:711][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:712][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:713][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:714][409]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.40.29:728][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.29:728][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Carro/carro.uasset.
+[2015.11.23-23.40.29:728][409]LoadErrors:Error: Error /Game/Carro/carro : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.40.29:736][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.29:737][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Carro/carro.uasset.
+[2015.11.23-23.40.29:775][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.29:775][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mapas/Untitled.umap.
+[2015.11.23-23.40.29:775][409]LoadErrors:Error: Error /Game/Mapas/Untitled : Can't find file for asset. /Game/Carro/hoverCar
+[2015.11.23-23.40.29:828][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.29:828][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mapas/Untitled.umap.
+[2015.11.23-23.40.30:008][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:008][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:008][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:008][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:008][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:008][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:010][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:011][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:011][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:011][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:011][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:011][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:011][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:011][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:117][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:117][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:117][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:118][409]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by carro_2909
+[2015.11.23-23.40.30:118][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:118][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:118][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:118][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:118][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:118][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:119][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:119][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:119][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:119][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:119][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:119][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:120][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:121][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:277][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:277][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:277][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:277][409]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_11
+[2015.11.23-23.40.30:277][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:277][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:277][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:278][409]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_12
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:278][409]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_13
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:278][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.30:279][409]LogLinker:Warning: Can't find file '/Game/Carro/hoverCar'
+[2015.11.23-23.40.30:279][409]LoadErrors: Info Failed to load /Game/Carro/hoverCar.hoverCar_C Referenced by SCS_Node_14
+[2015.11.23-23.40.30:279][409]LogLinker:Warning: Can't find file for asset '/Game/Carro/hoverCar' while loading NULL.
+[2015.11.23-23.40.32:606][409]LogAIModule: Creating AISystem for world Untitled
+[2015.11.23-23.40.35:318][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.40.35:318][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.40.39:329][410]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.23-23.40.52:934][211]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.23-23.40.52:960][211]LightingResults: New page: Lighting Build
+[2015.11.23-23.40.52:985][211]LoadErrors: New page: Loading map: Template_Default.umap
+[2015.11.23-23.40.52:987][211]MapCheck: New page: Map Check
+[2015.11.23-23.40.52:987][211]LightingResults: New page: Lighting Build
+[2015.11.23-23.40.53:013][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A4FACAAC00
+[2015.11.23-23.40.53:142][211]LogAIModule: Creating AISystem for world Untitled_1
+[2015.11.23-23.40.53:146][211]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.23-23.40.53:156][211]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.23-23.40.53:313][211]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 156.9ms to complete.
+[2015.11.23-23.40.53:313][211]LogFileHelpers: Loading map 'Template_Default' took 0.380
+[2015.11.23-23.41.07:609][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.41.07:609][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.41.07:678][324]LogSavePackage: Save=38.750988ms
+[2015.11.23-23.41.07:678][324]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Nivel_13C58B6524DF5E1771FDD1284FC478F37.tmp' to '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap'
+[2015.11.23-23.41.07:681][324]LogSavePackage: Total save time: 46.564426ms
+[2015.11.23-23.41.07:681][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap
+[2015.11.23-23.41.07:743][324]LogFileHelpers: Saving map 'Nivel_1' took 0.431
+[2015.11.23-23.41.52:792][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.23-23.48.55:037][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:041][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:044][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:047][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:049][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:051][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:053][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:056][799]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.48.55:117][799]LogBlueprint:Warning: [compiler hoverCar] Warning 'meshComponent' is already a 'Static Mesh Component' (which inherits from 'Primitive Component'), so you don't need  Cast To PrimitiveComponent .
+[2015.11.23-23.48.55:121][799]LogBlueprint:Warning: [compiler hoverCar] Warning [0718.38] Compile of hoverCar successful, but with 1 Warning(s) [in 9 ms]
+[2015.11.23-23.48.55:121][799]LogBlueprint:Warning: [compiler hoverCar] Warning [0718.38] Compile of hoverCar successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.23-23.48.55:121][799]LogBlueprint:Warning: [compiler hoverCar] Warning [0718.38] Compile of hoverCar successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.23-23.48.55:156][799]LogBlueprint:Warning: [compiler hoverCar] Warning 'meshComponent' is already a 'Static Mesh Component' (which inherits from 'Primitive Component'), so you don't need  Cast To PrimitiveComponent .
+[2015.11.23-23.48.55:160][799]LogBlueprint:Warning: [compiler hoverCar] Warning [0718.42] Compile of hoverCar successful, but with 1 Warning(s) [in 10 ms]
+[2015.11.23-23.48.55:160][799]LogBlueprint:Warning: [compiler hoverCar] Warning [0718.42] Compile of hoverCar successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.23-23.48.55:161][799]LogBlueprint:Warning: [compiler hoverCar] Warning [0718.42] Compile of hoverCar successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.23-23.48.55:261][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.48.55:261][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.49.29:992][ 87]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.23-23.49.33:224][ 87]LogAIModule: Creating AISystem for world Untitled
+[2015.11.23-23.49.37:594][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.49.37:594][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.50.02:339][ 87]LoadErrors:Error: Error /Game/Mapas/Untitled : Failed import for CameraComponent /Game/Carro/carro.carro_C:CameraComponent_0
+[2015.11.23-23.50.02:424][ 88]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.23-23.51.14:692][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.51.14:692][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.51.21:616][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.51.21:616][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.51.24:275][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.51.24:275][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.52.08:331][891]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.23-23.52.08:348][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.52.08:349][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.52.12:992][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Carro/carro" FILE="../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Carro/carro.uasset" SILENT=true
+[2015.11.23-23.52.13:013][891]LogBlueprint:Warning: FMemberReference::ResolveMember (carMesh) bSelfContext == true, but no scope supplied!
+[2015.11.23-23.52.13:013][891]LogBlueprint:Warning: FMemberReference::ResolveMember (carMesh) bSelfContext == true, but no scope supplied!
+[2015.11.23-23.52.13:014][891]LogBlueprint:Warning: FMemberReference::ResolveMember (carMesh) bSelfContext == true, but no scope supplied!
+[2015.11.23-23.52.13:014][891]LogBlueprint:Warning: FMemberReference::ResolveMember (carMesh) bSelfContext == true, but no scope supplied!
+[2015.11.23-23.52.13:017][891]LogBlueprint:Warning: FMemberReference::ResolveMember (carMesh) bSelfContext == true, but no scope supplied!
+[2015.11.23-23.52.13:017][891]LogBlueprint:Warning: FMemberReference::ResolveMember (carMesh) bSelfContext == true, but no scope supplied!
+[2015.11.23-23.52.20:517][891]LogSavePackage:Warning: 
+Referencers of SimpleConstructionScript /Engine/Transient.DEADCLASS_carro_C_0:SimpleConstructionScript_1:
+[2015.11.23-23.52.20:553][891]LogSavePackage:Warning: 	Blueprint /Game/Carro/carro.carro (1 refs)
+[2015.11.23-23.52.20:553][891]LogSavePackage:Warning: 		0) ObjectProperty /Script/Engine.Blueprint:SimpleConstructionScript
+[2015.11.23-23.52.30:056][891]EditorErrors: New page: Save Output
+[2015.11.23-23.52.30:056][891]EditorErrors:Warning: Warning Can't save ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Carro/carro.uasset: Graph is linked to external private object SimpleConstructionScript /Engine/Transient.DEADCLASS_carro_C_0:SimpleConstructionScript_1 (SimpleConstructionScript)
+[2015.11.23-23.52.30:068][891]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for CameraComponent /Game/Carro/carro.carro_C:CameraComponent_0
+[2015.11.23-23.52.39:762][100]LightingResults: New page: Lighting Build
+[2015.11.23-23.52.39:808][100]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2015.11.23-23.52.39:809][100]MapCheck: New page: Map Check
+[2015.11.23-23.52.39:809][100]LightingResults: New page: Lighting Build
+[2015.11.23-23.52.39:842][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A4BBE4B4C0
+[2015.11.23-23.52.39:853][100]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.23-23.52.39:966][100]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.23-23.52.40:196][100]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 230.428ms to complete.
+[2015.11.23-23.52.40:202][100]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.444
+[2015.11.23-23.52.43:994][265]LogEditorViewport: Clicking on Actor (LMB): carro_C (carro)
+[2015.11.23-23.52.45:287][311]Cmd: DELETE
+[2015.11.23-23.52.45:287][311]Cmd: ACTOR DELETE
+[2015.11.23-23.52.45:289][311]LogEditorActor: Deleted Actor: carro_C
+[2015.11.23-23.52.45:321][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.52.45:321][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.52.45:373][311]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2015.11.23-23.53.48:263][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.53.48:263][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.53.49:075][929]LogSavePackage: Save=724.591003ms
+[2015.11.23-23.53.49:075][929]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/ThirdPersonExampleMap6B2FFBBB43D12EF7A82483942A82A418.tmp' to '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.11.23-23.53.49:084][929]LogSavePackage: Total save time: 770.166192ms
+[2015.11.23-23.53.49:084][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.11.23-23.54.03:276][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-23.54.03:276][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.23-23.54.05:812][500]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_84' or package '/Game/Carro/actorCarro'.
+[2015.11.23-23.54.05:812][500]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_actorCarro_C_3' or package '/Engine/Transient'.
+[2015.11.23-23.54.05:813][500]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_actorCarro_C_2' or package '/Engine/Transient'.
+[2015.11.23-23.54.05:813][500]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_actorCarro_C_76' or package '/Engine/Transient'.
+[2015.11.23-23.54.05:813][500]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_actorCarro_C_75' or package '/Engine/Transient'.
+[2015.11.23-23.54.19:295][ 47]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-23.54.20:025][ 47]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2015.11.23-23.54.32:713][993]BlueprintLog: New page: Compile AIS
+[2015.11.23-23.54.32:744][993]LogBlueprint:Warning: [compiler AIS] Warning Can't connect pins  Objetivo Actual  and  Target : DEADCLASS Carro C 0 Reference is not compatible with Reference.
+[2015.11.23-23.54.32:745][993]LogBlueprint:Warning: [compiler AIS] Warning Can't connect pins  Target  and  Objetivo Actual : Reference is not compatible with DEADCLASS Carro C 0 Reference.
+[2015.11.23-23.54.32:745][993]LogBlueprint:Warning: [compiler AIS] Warning Could not find a variable named "carMesh" in 'AIS'.
+Make sure 'AIS' has been compiled for  Get carMesh 
+[2015.11.23-23.54.33:669][993]LogCrashTracker: 
+
+
+[2015.11.23-23.54.33:819][993]LogCrashTracker: 
+
+
+[2015.11.23-23.54.33:819][993]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2015.11.23-23.54.33:932][993]LogExit: Executing StaticShutdownAfterError
+[2015.11.23-23.54.33:942][993]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.23-23.54.33:943][993]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.23-23.54.33:943][993]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.23-23.54.33:943][993]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.23-23.54.33:943][993]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.11.23-23.54.33:943][993]Log file closed, 11/23/15 18:54:33
