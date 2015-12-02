@@ -1,0 +1,806 @@
+﻿[2015.12.02-12.44.29:743][  0]Log file open, 12/02/15 07:44:29
+[2015.12.02-12.44.29:743][  0]LogInit:Display: Running engine for game: Prototipo_1
+[2015.12.02-12.44.29:743][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.02-12.44.29:743][  0]LogInit:Display: RandInit(-410201167) SRandInit(-410201166).
+[2015.12.02-12.44.29:743][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.12.02-12.44.29:743][  0]LogStats: Stats thread started at 0.168477
+[2015.12.02-12.44.29:743][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.02-12.44.29:743][  0]LogInit: API Version: 2758231
+[2015.12.02-12.44.29:743][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.02-12.44.29:743][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.02-12.44.29:743][  0]LogInit: Build Configuration: Development
+[2015.12.02-12.44.29:743][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.02-12.44.29:743][  0]LogInit: Command line:  
+[2015.12.02-12.44.29:743][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.02-12.44.29:743][  0]LogInit: Rocket: 1
+[2015.12.02-12.44.29:789][  0]LogInit: Using libcurl 7.41.0
+[2015.12.02-12.44.29:789][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.02-12.44.29:789][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.02-12.44.29:789][  0]LogInit:  - other features:
+[2015.12.02-12.44.29:789][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.02-12.44.29:789][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.02-12.44.29:789][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.02-12.44.29:789][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.02-12.44.29:789][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.02-12.44.29:789][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.02-12.44.29:789][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.02-12.44.29:789][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.02-12.44.29:789][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.02-12.44.29:789][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.02-12.44.29:992][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.02-12.44.30:008][  0]LogInit: Object subsystem initialized
+[2015.12.02-12.44.30:039][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.02-12.44.30:039][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.02-12.44.30:096][  0]LogInit: Computer: JORGE
+[2015.12.02-12.44.30:096][  0]LogInit: User: Jorge
+[2015.12.02-12.44.30:096][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.12.02-12.44.30:096][  0]LogInit: High frequency timer resolution =2.533200 MHz
+[2015.12.02-12.44.30:096][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.12.02-12.44.30:096][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.02-12.44.30:096][  0]LogMemory: Process Physical Memory: 56.72 MB used, 56.72 MB peak
+[2015.12.02-12.44.30:096][  0]LogMemory: Process Virtual Memory: 55.64 MB used, 55.64 MB peak
+[2015.12.02-12.44.30:096][  0]LogMemory: Physical Memory: 2694.53 MB used, 12208.14 MB total
+[2015.12.02-12.44.30:096][  0]LogMemory: Virtual Memory: 376.60 MB used, 134217728.00 MB total
+[2015.12.02-12.44.32:592][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.12.02-12.44.32:592][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6104MB of shared system memory, 1 output[s]
+[2015.12.02-12.44.34:413][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R7 M260 (Feature Level 11_0)
+[2015.12.02-12.44.34:413][  0]LogD3D11RHI: Adapter has 2035MB of dedicated video memory, 0MB of dedicated system memory, and 6104MB of shared system memory, 0 output[s]
+[2015.12.02-12.44.34:415][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.02-12.44.34:415][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6104MB of shared system memory, 0 output[s]
+[2015.12.02-12.44.34:415][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.02-12.44.34:420][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.02-12.44.34:420][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.02-12.44.34:426][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.02-12.44.34:430][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Intermediate/Shaders/WorkingDirectory/2780/).
+[2015.12.02-12.44.34:430][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daniel/AppData/Local/Temp/UnrealShaderWorkingDir/B34403CC47CCDC8949CFAD9C55351F2A/'.
+[2015.12.02-12.44.34:430][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.02-12.44.38:236][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.02-12.44.38:259][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.02-12.44.38:271][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.02-12.44.38:282][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.02-12.44.38:288][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.02-12.44.38:293][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.02-12.44.38:297][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.02-12.44.38:301][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.02-12.44.38:306][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.02-12.44.38:311][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.02-12.44.38:315][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.02-12.44.38:325][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.02-12.44.38:325][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.02-12.44.38:327][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.02-12.44.38:370][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.02-12.44.38:374][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.02-12.44.38:377][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.02-12.44.38:382][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.02-12.44.38:382][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.02-12.44.38:973][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.02-12.44.39:562][  0]LogDerivedDataCache: Loaded boot cache 0.57s 41MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.02-12.44.39:562][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Daniel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.02-12.44.39:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.02-12.44.39:574][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.02-12.44.39:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.02-12.44.39:574][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.02-12.44.39:726][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.02-12.44.39:792][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daniel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.02-12.44.48:311][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.02-12.44.48:391][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.02-12.44.49:833][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.02-12.44.49:833][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.02-12.44.52:950][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.02-12.45.25:600][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.02-12.45.26:654][  0]LogAssetRegistry: FAssetRegistry took 0.0153 seconds to start up
+[2015.12.02-12.45.30:543][  0]SourceControl: Info Source control is disabled
+[2015.12.02-12.45.30:924][  0]SourceControl: Info Source control is disabled
+[2015.12.02-12.45.31:056][  0]SourceControl: Info Source control is disabled
+[2015.12.02-12.45.31:155][  0]SourceControl: Info Source control is disabled
+[2015.12.02-12.45.32:925][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.02-12.45.32:925][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.02-12.45.33:776][  0]LogEngine: Initializing Engine...
+[2015.12.02-12.45.33:802][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.02-12.45.34:325][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.02-12.45.35:317][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.02-12.45.35:499][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.02-12.45.35:706][  0]LogInit: FAudioDevice initialized.
+[2015.12.02-12.45.35:741][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.02-12.45.35:745][  0]LogInit: Texture streaming: Enabled
+[2015.12.02-12.45.36:146][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.02-12.45.36:165][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.02-12.45.36:165][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 02a92638413d6e9abea5c7aca5f6540a|3349b03e2e674c09ae8b169d1df5bddf|a6273b8f-85b9-4f16-b013-14ad0d925f1f
+[2015.12.02-12.45.36:181][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.02-12.45.36:292][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.02-12.45.36:688][  0]LogInit: Transaction tracking system initialized
+[2015.12.02-12.45.38:178][  0]BlueprintLog: New page: Editor Load
+[2015.12.02-12.45.42:181][  0]LocalizationService: Info Localization service is disabled
+[2015.12.02-12.45.45:368][  0]LogConsoleResponse:Display: 
+[2015.12.02-12.45.49:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/' took 0.03s
+[2015.12.02-12.45.49:054][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.02-12.45.50:881][  0]SourceControl: Info Source control is disabled
+[2015.12.02-12.45.51:105][  0]LightingResults: New page: Lighting Build
+[2015.12.02-12.45.51:306][  0]MapCheck: New page: Map Check
+[2015.12.02-12.45.51:306][  0]LightingResults: New page: Lighting Build
+[2015.12.02-12.45.51:612][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C9283AAAC0
+[2015.12.02-12.45.51:892][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.51:946][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.51:989][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.52:016][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.52:044][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.52:059][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.52:105][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.52:123][  0]LogLinker:Warning: Asset '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-12.45.53:666][  0]LogBlueprint:Warning: [compiler hoverCar] Warning 'meshComponent' is already a 'Static Mesh Component' (which inherits from 'Primitive Component'), so you don't need  Cast To PrimitiveComponent .
+[2015.12.02-12.45.53:669][  0]LogBlueprint:Warning: [compiler hoverCar] Warning [0085.75] Compile of hoverCar successful, but with 1 Warning(s) [in 61 ms]
+[2015.12.02-12.45.53:669][  0]LogBlueprint:Warning: [compiler hoverCar] Warning [0085.75] Compile of hoverCar successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.02-12.45.53:669][  0]LogBlueprint:Warning: [compiler hoverCar] Warning [0085.75] Compile of hoverCar successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.02-12.45.54:256][  0]LogBlueprint:Warning: [compiler hoverCar] Warning 'meshComponent' is already a 'Static Mesh Component' (which inherits from 'Primitive Component'), so you don't need  Cast To PrimitiveComponent .
+[2015.12.02-12.45.54:258][  0]LogBlueprint:Warning: [compiler hoverCar] Warning [0086.34] Compile of hoverCar successful, but with 1 Warning(s) [in 6 ms]
+[2015.12.02-12.45.54:258][  0]LogBlueprint:Warning: [compiler hoverCar] Warning [0086.34] Compile of hoverCar successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.02-12.45.54:259][  0]LogBlueprint:Warning: [compiler hoverCar] Warning [0086.34] Compile of hoverCar successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.02-12.46.00:044][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.02-12.46.00:266][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.02-12.46.00:348][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.02-12.46.00:586][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 238.37ms to complete.
+[2015.12.02-12.46.00:587][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.660
+[2015.12.02-12.46.02:597][  0]LogCollectionManager: Loaded 0 collections in 0.008691 seconds
+[2015.12.02-12.46.02:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Collections/' took 0.01s
+[2015.12.02-12.46.02:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Developers/Jorge/Collections/' took 0.01s
+[2015.12.02-12.46.02:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Collections/' took 0.01s
+[2015.12.02-12.46.02:918][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2015.12.02-12.46.02:958][  0]LogContentBrowser: Native class hierarchy populated in 0.0351 seconds. Added 1893 classes and 338 folders.
+[2015.12.02-12.46.03:090][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.12.02-12.46.04:258][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.12.02-12.46.04:348][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.12.02-12.46.04:931][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.02-12.46.05:108][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.02-12.46.05:185][  0]LogLoad: Full Startup: 97.27 seconds (BP compile: 1.44 seconds)
+[2015.12.02-12.46.05:263][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.02-12.46.05:716][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.12.02-12.46.06:308][  0]LogRenderer: Reallocating scene render targets to support 660x276 (Frame:2).
+[2015.12.02-12.46.08:159][  8]LogAssetRegistry: Asset discovery search completed in 41.5181 seconds
+[2015.12.02-12.46.08:167][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.12.02-12.46.08:167][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2015.12.02-12.46.31:940][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava'
+[2015.12.02-12.46.31:941][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/StaticMesh/Pipes/SM_Dungeon_Pipes_Lava01.uasset.
+[2015.12.02-12.46.31:941][114]LoadErrors:Error: Error /Game/Meshes/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/StaticMesh/Pipes/SM_Dungeon_Pipes_Lava01 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava
+[2015.12.02-12.46.31:942][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava'
+[2015.12.02-12.46.31:942][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/StaticMesh/Pipes/SM_Dungeon_Pipes_Lava01.uasset.
+[2015.12.02-12.46.31:963][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree'
+[2015.12.02-12.46.31:963][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree.uasset.
+[2015.12.02-12.46.31:963][114]LoadErrors:Error: Error /Game/Meshes/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree : Can't find file for asset. /Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree
+[2015.12.02-12.46.31:964][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark'
+[2015.12.02-12.46.31:964][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree.uasset.
+[2015.12.02-12.46.31:965][114]LoadErrors:Error: Error /Game/Meshes/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree : Can't find file for asset. /Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark
+[2015.12.02-12.46.31:965][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree'
+[2015.12.02-12.46.31:965][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree.uasset.
+[2015.12.02-12.46.31:966][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark'
+[2015.12.02-12.46.31:966][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree.uasset.
+[2015.12.02-12.46.31:986][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block'
+[2015.12.02-12.46.31:986][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block01.uasset.
+[2015.12.02-12.46.31:986][114]LoadErrors:Error: Error /Game/Meshes/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block01 : Can't find file for asset. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block
+[2015.12.02-12.46.31:987][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block'
+[2015.12.02-12.46.31:987][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block01.uasset.
+[2015.12.02-12.46.32:012][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01'
+[2015.12.02-12.46.32:012][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Grass01.uasset.
+[2015.12.02-12.46.32:012][114]LoadErrors:Error: Error /Game/Meshes/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Grass01 : Can't find file for asset. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01
+[2015.12.02-12.46.32:013][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01'
+[2015.12.02-12.46.32:013][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01' while loading ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Meshes/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Grass01.uasset.
+[2015.12.02-12.46.32:356][114]LogK2Compiler:Warning: Failed to patch linker table for blueprint CDO Default__Nivel_C
+[2015.12.02-12.46.33:983][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01'
+[2015.12.02-12.46.33:983][114]LoadErrors: Info Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01.M_PLains_Fern01 Referenced by SM_Plains_Grass01
+[2015.12.02-12.46.33:984][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/Materials/M_PLains_Fern01' while loading NULL.
+[2015.12.02-12.46.34:358][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava'
+[2015.12.02-12.46.34:358][114]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava.M_Dungeon_Pipes_Lava Referenced by SM_Dungeon_Pipes_Lava01
+[2015.12.02-12.46.34:358][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava' while loading NULL.
+[2015.12.02-12.46.34:359][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block'
+[2015.12.02-12.46.34:359][114]LoadErrors: Info Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block Referenced by SM_Plains_Floors_Block01
+[2015.12.02-12.46.34:359][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' while loading NULL.
+[2015.12.02-12.46.34:407][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark'
+[2015.12.02-12.46.34:407][114]LoadErrors: Info Failed to load /Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark.M_TreeBark Referenced by SM_Cherry_Tree
+[2015.12.02-12.46.34:407][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_TreeBark' while loading NULL.
+[2015.12.02-12.46.34:408][114]LogLinker:Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree'
+[2015.12.02-12.46.34:408][114]LoadErrors: Info Failed to load /Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree.M_Cherry_Tree Referenced by SM_Cherry_Tree
+[2015.12.02-12.46.34:409][114]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Earth/Materials/M_Cherry_Tree' while loading NULL.
+[2015.12.02-12.46.51:728][114]LogAIModule: Creating AISystem for world Nivel_1
+[2015.12.02-12.46.54:605][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.46.54:605][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-12.46.54:688][114]Cmd: MAP LOAD FILE="../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.02-12.46.54:688][114]LightingResults: New page: Lighting Build
+[2015.12.02-12.46.54:711][114]LoadErrors: New page: Loading map: Nivel_1.umap
+[2015.12.02-12.46.54:712][114]MapCheck: New page: Map Check
+[2015.12.02-12.46.54:712][114]LightingResults: New page: Lighting Build
+[2015.12.02-12.46.54:738][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C9319ACB80
+[2015.12.02-12.46.57:048][114]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.02-12.46.57:137][114]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.02-12.46.57:350][114]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 212.848ms to complete.
+[2015.12.02-12.46.57:352][114]LogFileHelpers: Loading map 'Nivel_1' took 2.665
+[2015.12.02-12.47.47:985][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block312)
+[2015.12.02-12.47.51:159][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block310)
+[2015.12.02-12.47.52:844][671]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block309)
+[2015.12.02-12.47.53:857][708]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block307)
+[2015.12.02-12.47.55:167][754]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block297)
+[2015.12.02-12.47.56:614][809]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block304)
+[2015.12.02-12.47.57:942][858]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block305)
+[2015.12.02-12.48.02:485][ 23]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block306)
+[2015.12.02-12.48.03:665][ 63]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block308)
+[2015.12.02-12.48.05:001][109]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block311)
+[2015.12.02-12.48.16:855][587]LogRenderer: Reallocating scene render targets to support 660x444 (Frame:5695).
+[2015.12.02-12.49.19:226][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block650)
+[2015.12.02-12.49.20:456][827]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block654)
+[2015.12.02-12.49.21:111][848]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block656)
+[2015.12.02-12.49.21:922][875]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block657)
+[2015.12.02-12.49.22:875][906]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block659)
+[2015.12.02-12.49.32:769][292]LogEditorViewport: Clicking on Actor (LMB): Spline_calle_rot_C (Spline_calle_rot30)
+[2015.12.02-12.49.33:619][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block651)
+[2015.12.02-12.49.34:485][351]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block652)
+[2015.12.02-12.49.35:535][388]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block653)
+[2015.12.02-12.49.36:551][424]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block655)
+[2015.12.02-12.49.37:757][467]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block658)
+[2015.12.02-12.49.40:316][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block651)
+[2015.12.02-12.50.07:744][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block659)
+[2015.12.02-12.50.08:526][615]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block656)
+[2015.12.02-12.50.09:620][654]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block657)
+[2015.12.02-12.50.13:911][813]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block654)
+[2015.12.02-12.50.15:207][854]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block650)
+[2015.12.02-12.50.16:781][905]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block651)
+[2015.12.02-12.50.17:540][927]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block653)
+[2015.12.02-12.50.18:687][963]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block658)
+[2015.12.02-12.50.23:427][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block655)
+[2015.12.02-12.50.24:995][185]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block652)
+[2015.12.02-12.50.29:585][345]Cmd: TRANSACTION UNDO
+[2015.12.02-12.50.29:585][345]LogEditorTransaction: Undo Move Actors
+[2015.12.02-12.50.29:612][345]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block657.StaticMeshComponent0) Component already registered.
+[2015.12.02-12.50.29:615][345]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block651.StaticMeshComponent0) Component already registered.
+[2015.12.02-12.50.37:904][664]LogEditorViewport: Clicking on Actor (LMB): Spline_calle_rot_C (Spline_calle_rot30)
+[2015.12.02-12.50.54:121][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block650)
+[2015.12.02-12.51.19:303][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block658)
+[2015.12.02-12.51.50:874][801]EditorErrors: New page: Actor attachment
+[2015.12.02-12.52.05:763][534]EditorErrors: New page: Actor attachment
+[2015.12.02-12.52.20:665][256]EditorErrors: New page: Actor attachment
+[2015.12.02-12.52.24:586][425]Cmd: TRANSACTION UNDO
+[2015.12.02-12.52.24:586][425]LogEditorTransaction: Undo Detach actors
+[2015.12.02-12.52.30:670][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block535)
+[2015.12.02-12.53.01:940][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-12.53.31:393][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block659)
+[2015.12.02-12.53.51:195][741]EditorErrors: New page: Actor attachment
+[2015.12.02-12.54.39:676][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-12.54.43:393][987]LogEditorViewport: Clicking on Actor (LMB): Spline_calle_rot_C (Spline_calle_rot30)
+[2015.12.02-12.55.10:465][989]LogSavePackage: Save=2081.382080ms
+[2015.12.02-12.55.10:465][989]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Nivel_14DF86E6E49C9E6722E1AF9B16723D058.tmp' to '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap'
+[2015.12.02-12.55.10:473][989]LogSavePackage: Total save time: 2126.669824ms
+[2015.12.02-12.55.10:473][989]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap
+[2015.12.02-12.59.22:986][133]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.12.02-12.59.22:991][133]LogHttp:Warning: Timeout processing Http request. 000000C96A0B4600
+[2015.12.02-13.01.06:154][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block669)
+[2015.12.02-13.01.07:258][739]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block667)
+[2015.12.02-13.01.15:434][152]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block659)
+[2015.12.02-13.01.16:358][195]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block657)
+[2015.12.02-13.01.17:226][236]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block656)
+[2015.12.02-13.01.18:059][275]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block654)
+[2015.12.02-13.01.18:792][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block650)
+[2015.12.02-13.01.20:507][394]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block666)
+[2015.12.02-13.01.21:922][462]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block664)
+[2015.12.02-13.01.23:197][522]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block660)
+[2015.12.02-13.01.36:103][222]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block668)
+[2015.12.02-13.01.36:884][263]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block665)
+[2015.12.02-13.01.37:601][300]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block663)
+[2015.12.02-13.01.38:353][339]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block662)
+[2015.12.02-13.01.41:956][521]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block661)
+[2015.12.02-13.01.43:383][590]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block651)
+[2015.12.02-13.01.45:073][672]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block658)
+[2015.12.02-13.01.45:987][715]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block655)
+[2015.12.02-13.01.47:002][763]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block653)
+[2015.12.02-13.01.48:690][845]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block652)
+[2015.12.02-13.04.04:042][159]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.12.02-13.04.05:516][289]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.12.02-13.04.36:637][484]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (monumento_OBJ)
+[2015.12.02-13.04.58:714][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block722)
+[2015.12.02-13.06.52:087][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-13.07.21:543][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block739)
+[2015.12.02-13.07.22:516][162]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block737)
+[2015.12.02-13.07.23:318][196]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block736)
+[2015.12.02-13.07.23:932][223]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block734)
+[2015.12.02-13.07.24:566][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block730)
+[2015.12.02-13.07.29:791][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block730)
+[2015.12.02-13.07.31:411][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block737)
+[2015.12.02-13.07.32:336][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block734)
+[2015.12.02-13.07.33:328][676]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block730)
+[2015.12.02-13.07.34:572][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-13.07.35:300][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block730)
+[2015.12.02-13.07.38:985][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-13.07.42:452][111]Cmd: TRANSACTION UNDO
+[2015.12.02-13.07.42:452][111]LogEditorTransaction: Undo Clicking on Actors
+[2015.12.02-13.07.43:265][142]Cmd: TRANSACTION UNDO
+[2015.12.02-13.07.43:266][142]LogEditorTransaction: Undo Move Actors
+[2015.12.02-13.07.48:938][414]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block739)
+[2015.12.02-13.07.49:572][442]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block737)
+[2015.12.02-13.07.50:583][489]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block736)
+[2015.12.02-13.07.51:124][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block734)
+[2015.12.02-13.07.55:619][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block730)
+[2015.12.02-13.08.00:525][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-13.08.10:334][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block740)
+[2015.12.02-13.08.11:518][490]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block744)
+[2015.12.02-13.08.12:841][551]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block746)
+[2015.12.02-13.08.13:860][597]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block747)
+[2015.12.02-13.08.15:265][662]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block749)
+[2015.12.02-13.08.16:397][715]Cmd: DELETE
+[2015.12.02-13.08.16:397][715]Cmd: ACTOR DELETE
+[2015.12.02-13.08.16:406][715]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-13.08.16:410][715]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-13.08.16:415][715]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-13.08.16:421][715]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-13.08.16:424][715]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-13.08.16:478][715]LogEditorActor: Deleted 5 Actors (0.081 secs)
+[2015.12.02-13.08.24:960][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block810)
+[2015.12.02-13.08.32:180][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block739)
+[2015.12.02-13.08.33:086][538]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block737)
+[2015.12.02-13.08.33:969][580]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block736)
+[2015.12.02-13.08.34:708][615]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block734)
+[2015.12.02-13.08.36:520][702]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block810)
+[2015.12.02-13.08.42:558][978]Cmd: TRANSACTION UNDO
+[2015.12.02-13.08.42:558][978]LogEditorTransaction: Undo Move Actors
+[2015.12.02-13.08.43:543][ 13]Cmd: TRANSACTION UNDO
+[2015.12.02-13.08.43:543][ 13]LogEditorTransaction: Undo Move Actors
+[2015.12.02-13.09.07:175][970]LogSavePackage: Save=1888.841431ms
+[2015.12.02-13.09.07:175][970]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Nivel_1C15B29474C6EF069D87C178253BAA7DA.tmp' to '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap'
+[2015.12.02-13.09.07:182][970]LogSavePackage: Total save time: 1922.422230ms
+[2015.12.02-13.09.07:182][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap
+[2015.12.02-13.11.29:185][631]LogSavePackage: Save=1854.630127ms
+[2015.12.02-13.11.29:185][631]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Nivel_1E138E91B469ABF84C08A0C9668017E96.tmp' to '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap'
+[2015.12.02-13.11.29:191][631]LogSavePackage: Total save time: 1873.328991ms
+[2015.12.02-13.11.29:191][631]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap
+[2015.12.02-13.11.50:168][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (monumento_OBJ)
+[2015.12.02-13.11.58:985][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2015.12.02-13.12.04:346][ 17]LogSavePackage: Save=1848.600586ms
+[2015.12.02-13.12.04:346][ 17]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Nivel_1F415842444C936AE5AA93388DEE7BB34.tmp' to '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap'
+[2015.12.02-13.12.04:353][ 17]LogSavePackage: Total save time: 1869.144958ms
+[2015.12.02-13.12.04:353][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap
+[2015.12.02-14.09.40:981][883]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.12.02-14.11.22:097][166]LogEditorViewport: Clicking on Actor (LMB): Spline_calle_C (Spline_calle9)
+[2015.12.02-14.11.22:740][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block747)
+[2015.12.02-14.11.40:382][898]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block746)
+[2015.12.02-14.11.41:248][929]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block744)
+[2015.12.02-14.11.41:845][949]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block740)
+[2015.12.02-14.11.42:412][968]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block811)
+[2015.12.02-14.11.43:582][ 12]Cmd: DELETE
+[2015.12.02-14.11.43:582][ 12]Cmd: ACTOR DELETE
+[2015.12.02-14.11.43:598][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.11.43:608][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.11.43:616][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.11.43:623][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.11.43:630][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.11.43:696][ 12]LogEditorActor: Deleted 5 Actors (0.113 secs)
+[2015.12.02-14.11.46:091][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block810)
+[2015.12.02-14.11.48:491][199]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block734)
+[2015.12.02-14.11.50:363][270]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block730)
+[2015.12.02-14.11.51:876][326]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block736)
+[2015.12.02-14.11.53:450][386]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block739)
+[2015.12.02-14.11.55:201][452]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block737)
+[2015.12.02-14.12.36:207][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.36:214][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.36:289][ 34]LogEditorActor: Deleted 2 Actors (0.091 secs)
+[2015.12.02-14.12.38:832][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block780)
+[2015.12.02-14.12.41:303][217]Cmd: DELETE
+[2015.12.02-14.12.41:303][217]Cmd: ACTOR DELETE
+[2015.12.02-14.12.41:307][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.41:350][217]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2015.12.02-14.12.42:622][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block784)
+[2015.12.02-14.12.42:876][277]Cmd: DELETE
+[2015.12.02-14.12.42:876][277]Cmd: ACTOR DELETE
+[2015.12.02-14.12.42:886][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.42:952][277]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2015.12.02-14.12.44:399][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block789)
+[2015.12.02-14.12.44:730][344]Cmd: DELETE
+[2015.12.02-14.12.44:730][344]Cmd: ACTOR DELETE
+[2015.12.02-14.12.44:739][344]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.44:802][344]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2015.12.02-14.12.46:162][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block770)
+[2015.12.02-14.12.47:650][450]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block779)
+[2015.12.02-14.12.49:364][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block777)
+[2015.12.02-14.12.51:130][576]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block776)
+[2015.12.02-14.12.52:367][621]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block774)
+[2015.12.02-14.12.53:635][669]Cmd: DELETE
+[2015.12.02-14.12.53:635][669]Cmd: ACTOR DELETE
+[2015.12.02-14.12.53:645][669]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.53:651][669]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.53:658][669]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.53:665][669]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.53:672][669]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.12.53:737][669]LogEditorActor: Deleted 5 Actors (0.102 secs)
+[2015.12.02-14.13.15:972][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block760)
+[2015.12.02-14.13.17:940][616]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block769)
+[2015.12.02-14.13.19:035][655]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block767)
+[2015.12.02-14.13.19:887][685]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block766)
+[2015.12.02-14.13.21:131][728]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block764)
+[2015.12.02-14.13.22:125][764]Cmd: DELETE
+[2015.12.02-14.13.22:125][764]Cmd: ACTOR DELETE
+[2015.12.02-14.13.22:137][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.22:145][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.22:153][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.22:160][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.22:166][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.22:226][764]LogEditorActor: Deleted 5 Actors (0.101 secs)
+[2015.12.02-14.13.23:753][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block759)
+[2015.12.02-14.13.25:210][878]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block757)
+[2015.12.02-14.13.26:355][919]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block756)
+[2015.12.02-14.13.27:521][962]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block754)
+[2015.12.02-14.13.29:493][ 36]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block750)
+[2015.12.02-14.13.30:494][ 73]Cmd: DELETE
+[2015.12.02-14.13.30:494][ 73]Cmd: ACTOR DELETE
+[2015.12.02-14.13.30:506][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.30:514][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.30:520][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.30:526][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.30:532][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.13.30:591][ 73]LogEditorActor: Deleted 5 Actors (0.097 secs)
+[2015.12.02-14.13.43:377][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block749)
+[2015.12.02-14.13.44:491][652]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block747)
+[2015.12.02-14.13.45:750][699]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block746)
+[2015.12.02-14.13.46:855][738]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block744)
+[2015.12.02-14.13.48:142][787]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block740)
+[2015.12.02-14.13.50:918][894]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block811)
+[2015.12.02-14.13.52:170][941]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block739)
+[2015.12.02-14.13.53:401][987]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block737)
+[2015.12.02-14.13.54:123][ 13]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block736)
+[2015.12.02-14.13.54:929][ 42]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block734)
+[2015.12.02-14.13.56:286][ 93]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block730)
+[2015.12.02-14.13.59:429][211]Cmd: TRANSACTION UNDO
+[2015.12.02-14.13.59:429][211]LogEditorTransaction: Undo Move Actors
+[2015.12.02-14.13.59:453][211]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block740.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.13.59:455][211]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block730.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.14.04:334][402]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block810)
+[2015.12.02-14.15.15:098][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block790)
+[2015.12.02-14.15.16:208][ 52]Cmd: DELETE
+[2015.12.02-14.15.16:208][ 52]Cmd: ACTOR DELETE
+[2015.12.02-14.15.16:215][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.16:292][ 52]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2015.12.02-14.15.17:449][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block794)
+[2015.12.02-14.15.18:037][101]Cmd: DELETE
+[2015.12.02-14.15.18:037][101]Cmd: ACTOR DELETE
+[2015.12.02-14.15.18:046][101]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.18:120][101]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2015.12.02-14.15.19:985][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block799)
+[2015.12.02-14.15.20:448][184]Cmd: DELETE
+[2015.12.02-14.15.20:448][184]Cmd: ACTOR DELETE
+[2015.12.02-14.15.20:457][184]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.20:521][184]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2015.12.02-14.15.20:925][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block797)
+[2015.12.02-14.15.21:221][209]Cmd: DELETE
+[2015.12.02-14.15.21:221][209]Cmd: ACTOR DELETE
+[2015.12.02-14.15.21:230][209]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.21:297][209]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2015.12.02-14.15.21:970][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block796)
+[2015.12.02-14.15.22:325][247]Cmd: DELETE
+[2015.12.02-14.15.22:325][247]Cmd: ACTOR DELETE
+[2015.12.02-14.15.22:332][247]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.22:392][247]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2015.12.02-14.15.23:445][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block800)
+[2015.12.02-14.15.23:798][301]Cmd: DELETE
+[2015.12.02-14.15.23:798][301]Cmd: ACTOR DELETE
+[2015.12.02-14.15.23:807][301]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.23:882][301]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2015.12.02-14.15.24:409][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block804)
+[2015.12.02-14.15.24:638][328]Cmd: DELETE
+[2015.12.02-14.15.24:638][328]Cmd: ACTOR DELETE
+[2015.12.02-14.15.24:646][328]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.24:709][328]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2015.12.02-14.15.25:918][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block806)
+[2015.12.02-14.15.26:205][385]Cmd: DELETE
+[2015.12.02-14.15.26:205][385]Cmd: ACTOR DELETE
+[2015.12.02-14.15.26:212][385]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.26:276][385]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2015.12.02-14.15.26:763][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block807)
+[2015.12.02-14.15.27:183][420]Cmd: DELETE
+[2015.12.02-14.15.27:183][420]Cmd: ACTOR DELETE
+[2015.12.02-14.15.27:192][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.27:267][420]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2015.12.02-14.15.27:975][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block809)
+[2015.12.02-14.15.28:137][452]Cmd: DELETE
+[2015.12.02-14.15.28:137][452]Cmd: ACTOR DELETE
+[2015.12.02-14.15.28:144][452]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.15.28:203][452]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.12.02-14.15.34:015][683]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block814)
+[2015.12.02-14.15.35:724][746]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block779)
+[2015.12.02-14.15.37:397][807]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block777)
+[2015.12.02-14.15.38:555][849]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block776)
+[2015.12.02-14.15.40:606][926]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block774)
+[2015.12.02-14.16.11:503][ 97]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block789)
+[2015.12.02-14.16.13:330][165]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block770)
+[2015.12.02-14.16.14:882][222]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block787)
+[2015.12.02-14.16.17:251][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block786)
+[2015.12.02-14.16.18:806][367]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block784)
+[2015.12.02-14.16.20:000][410]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block780)
+[2015.12.02-14.16.21:671][472]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block815)
+[2015.12.02-14.16.40:443][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-14.18.53:442][107]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (monumento_OBJ)
+[2015.12.02-14.19.32:258][224]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block845)
+[2015.12.02-14.19.48:934][873]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block849)
+[2015.12.02-14.19.56:675][167]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block825)
+[2015.12.02-14.20.12:242][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block874)
+[2015.12.02-14.20.28:231][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:239][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:245][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:251][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:257][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:263][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:268][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:273][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:277][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:281][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:285][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:289][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:293][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:297][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:301][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:304][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:308][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:311][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.02-14.20.28:362][348]LogEditorActor: Deleted 18 Actors (0.139 secs)
+[2015.12.02-14.20.39:562][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block856)
+[2015.12.02-14.21.56:683][786]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block853)
+[2015.12.02-14.22.02:443][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block821)
+[2015.12.02-14.22.07:423][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block818)
+[2015.12.02-14.22.08:614][195]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block819)
+[2015.12.02-14.22.09:724][230]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block821)
+[2015.12.02-14.22.10:709][262]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block842)
+[2015.12.02-14.22.16:730][476]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block820)
+[2015.12.02-14.22.18:348][539]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block843)
+[2015.12.02-14.22.20:478][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block856)
+[2015.12.02-14.22.21:888][681]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block852)
+[2015.12.02-14.22.22:716][713]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block845)
+[2015.12.02-14.22.24:099][767]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block844)
+[2015.12.02-14.22.25:667][832]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block857)
+[2015.12.02-14.22.26:521][865]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block849)
+[2015.12.02-14.22.28:056][928]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block853)
+[2015.12.02-14.22.29:491][985]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block847)
+[2015.12.02-14.22.32:886][124]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block846)
+[2015.12.02-14.22.34:490][187]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block825)
+[2015.12.02-14.22.36:280][258]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block823)
+[2015.12.02-14.22.38:693][355]LogEditorViewport: Clicking on Actor (CTRL LMB): Spline_calle_C (Spline_calle)
+[2015.12.02-14.22.45:102][612]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block822)
+[2015.12.02-14.22.55:609][976]Cmd: TRANSACTION UNDO
+[2015.12.02-14.22.55:609][976]LogEditorTransaction: Undo Move Actors
+[2015.12.02-14.22.55:628][976]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block820.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.22.55:631][976]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block844.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.22.57:165][ 50]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block848)
+[2015.12.02-14.23.18:340][792]Cmd: TRANSACTION UNDO
+[2015.12.02-14.23.18:340][792]LogEditorTransaction: Undo Move Actors
+[2015.12.02-14.23.18:372][792]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block856.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.23.18:374][792]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block819.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.23.18:375][792]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block845.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.23.18:378][792]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Nivel_1.Nivel_1:PersistentLevel.SM_Plains_Floors_Block848.StaticMeshComponent0) Component already registered.
+[2015.12.02-14.23.22:997][952]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block824)
+[2015.12.02-14.24.36:079][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block846)
+[2015.12.02-14.24.39:088][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block842)
+[2015.12.02-14.24.43:798][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-14.24.52:860][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block842)
+[2015.12.02-14.25.02:603][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block843)
+[2015.12.02-14.25.07:581][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block844)
+[2015.12.02-14.25.13:871][373]Cmd: TRANSACTION UNDO
+[2015.12.02-14.25.13:871][373]LogEditorTransaction: Undo Move Actors
+[2015.12.02-14.25.14:333][388]Cmd: TRANSACTION UNDO
+[2015.12.02-14.25.14:333][388]LogEditorTransaction: Undo Clicking on Actors
+[2015.12.02-14.25.14:894][414]Cmd: TRANSACTION UNDO
+[2015.12.02-14.25.14:894][414]LogEditorTransaction: Undo Select Brush Surface
+[2015.12.02-14.25.15:413][438]Cmd: TRANSACTION UNDO
+[2015.12.02-14.25.15:413][438]LogEditorTransaction: Undo Move Actors
+[2015.12.02-14.25.16:002][460]Cmd: TRANSACTION UNDO
+[2015.12.02-14.25.16:002][460]LogEditorTransaction: Undo Clicking on Actors
+[2015.12.02-14.25.16:603][480]Cmd: TRANSACTION UNDO
+[2015.12.02-14.25.16:603][480]LogEditorTransaction: Undo Move Actors
+[2015.12.02-14.25.47:991][572]LogSavePackage: Save=2076.174072ms
+[2015.12.02-14.25.47:991][572]LogSavePackage: Moving '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Saved/Nivel_1535D0850492EBCCE28644D9BCCBDA3F4.tmp' to '../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap'
+[2015.12.02-14.25.47:999][572]LogSavePackage: Total save time: 2116.417971ms
+[2015.12.02-14.25.47:999][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daniel/Desktop/Dani/Proyectos RV/Proyecto-Realidad-Virtual/Prototipo_1 4.10/Content/Maps/Nivel_1.umap
+[2015.12.02-14.25.53:634][740]Cmd: QUIT_EDITOR
+[2015.12.02-14.25.53:732][740]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.02-14.25.53:915][740]LogExit: Preparing to exit.
+[2015.12.02-14.25.54:895][740]LogExit: Editor shut down
+[2015.12.02-14.25.54:896][740]LogExit: Transaction tracking system shut down
+[2015.12.02-14.25.54:928][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C9383200E0
+[2015.12.02-14.25.54:928][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C93EBC7BA0
+[2015.12.02-14.25.54:928][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C93FDB5120
+[2015.12.02-14.25.54:930][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C951D9A340
+[2015.12.02-14.25.54:934][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C951C4E340
+[2015.12.02-14.25.55:138][740]LogExit: Object subsystem successfully closed.
+[2015.12.02-14.25.55:167][740]LogD3D11RHI: Shutdown
+[2015.12.02-14.25.55:167][740]LogD3D11RHI: CleanupD3DDevice
+[2015.12.02-14.25.55:762][740]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.02-14.25.55:782][740]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2015.12.02-14.25.55:782][740]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.02-14.25.55:782][740]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.02-14.25.55:782][740]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.02-14.25.55:782][740]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.02-14.25.55:782][740]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.02-14.25.55:785][740]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.02-14.25.55:785][740]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.02-14.25.55:785][740]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.02-14.25.55:785][740]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.02-14.25.55:785][740]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.02-14.25.55:786][740]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.02-14.25.56:785][740]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.02-14.25.56:786][740]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.02-14.25.56:787][740]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.02-14.25.56:788][740]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.02-14.25.56:966][740]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.02-14.25.57:011][740]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.02-14.25.57:012][740]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.02-14.25.57:014][740]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.02-14.25.57:018][740]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.02-14.25.57:122][740]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.02-14.25.57:123][740]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.02-14.25.57:123][740]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.02-14.25.57:224][740]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.02-14.25.57:224][740]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.02-14.25.57:224][740]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.02-14.25.57:229][740]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.02-14.25.57:229][740]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.02-14.25.57:229][740]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.02-14.25.57:229][740]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.02-14.25.57:229][740]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.02-14.25.57:229][740]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.02-14.25.57:230][740]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.02-14.25.57:235][740]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.02-14.25.57:313][740]LogDerivedDataCache: Shutdown
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.02-14.25.57:313][740]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.02-14.25.57:314][740]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.02-14.25.58:315][740]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.02-14.25.58:315][740]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.02-14.25.58:315][740]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.02-14.25.58:315][740]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.02-14.25.58:315][740]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.02-14.25.58:315][740]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.02-14.25.58:315][740]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.02-14.25.58:346][740]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.02-14.25.58:349][740]LogExit: Exiting.
+[2015.12.02-14.25.58:353][740]Log file closed, 12/02/15 09:25:58
